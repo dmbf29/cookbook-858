@@ -1,3 +1,10 @@
-Boeuf bourguignon,Hearty red wine beef stew
-Apple pie,Pie with lots of apples
-Tiramisu,Yum
+name,description,rating,done,prep_time
+Boeuf bourguignon,Hearty red wine beef stew,,false,
+Apple pie,Pie with lots of apples,,false,
+Tiramisu,Yum,,false,
+Chocolate Surprise,"Chocolate cookie with a marshmallow surprise, and a chocolate icing. Each cookie is topped with a pecan half.",,false,
+pizza,dough with sauce,5,true,
+"White Chocolate, Chocolate Cookies",The reverse Chocolate Chip cookie. Rich dark chocolate with white chocolate chips.,4.5,false,
+burger,cmon,4,true,
+"""PERFECTLY CHOCOLATE"" Chocolate Cake",Chocolate cake that melts in your mouth for the best chocolate delight every time.,4.5,false,15 mins
+Chipotle Macaroni and Cheese,Creamy mac and cheese gets a spicy kick with the addition of chipotle peppers and pepper jack cheese.,4.5,true,20 mins

@@ -3,7 +3,8 @@ class View
     puts '*' * 30
     puts "Here are your recipes:"
     recipes.each_with_index do |recipe, index|
-      puts "#{index + 1}. #{recipe.name} - #{recipe.description}"
+      x_mark = recipe.done? ? "X" : " "
+      puts "#{index + 1}. [#{x_mark}] #{recipe.name} - #{recipe.description} (#{recipe.rating}/5) - Prep: #{recipe.prep_time}"
     end
     puts '*' * 30
   end
